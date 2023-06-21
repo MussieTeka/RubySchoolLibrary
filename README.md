@@ -1,68 +1,169 @@
 <div align="center">
   <img src="mussie.png" alt="logo" width="300px"  height="300px" />
+  <h3><b>School Library System</b></h3>
 </div>
+<a name="readme-top"></a>
 
-# Ruby Starter
+# 📗 Table of Contents
 
-This is a public template for Ruby projects that includes Rubocop for code style enforcement. It provides a basic structure and configuration to help you get started with your Ruby projects.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## Prerequisites
+# 📖 School Library System <a name="about-project"></a>
+The goal of this project is to create a tool for the librarian of OOP University to record books available in the library and track who borrows them. The app will provide a beautiful and well-organized interface to efficiently manage library resources.
 
-Before using this template, make sure you have the following dependencies installed:
+## 🛠 Built With <a name="built-with"></a>
 
-- [Ruby](https://www.ruby-lang.org/en/) (version 2.5.0 or higher)
-- [Bundler](https://bundler.io/)
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started
+The project is built with the following technologies:
 
-To create a new project using this template, follow these steps:
+- Ruby
+- Object-Oriented Programming (OOP) principles
 
-1. Click on the "Use this template" button at the top of the repository page, or [click here](https://github.com/your-username/your-project/generate) to generate a new repository based on this template.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-2. Clone the repository to your local machine:
+### Key Features <a name="key-features"></a>
 
-   ```bash
-   git clone https://github.com/your-username/your-project.git
-   ```
-3. Change into the project directory:
+The app will have the following key features:
 
-   ```bash
-   cd Ruby-Starter
-   ```
-   
-4. Run the following command to install the project dependencies:
+- Ability to add new students or teachers to the library system.
+- Ability to add new books to the library's collection.
+- Capability to record and save information about borrowed books, including borrower details and borrowing dates.
 
-   ```bash
-   bundle install
-   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Code Style Enforcement
-This template includes Rubocop for code style enforcement. Rubocop helps maintain consistent code formatting and ensures adherence to Ruby community style guidelines.
+## 💻 Getting Started <a name="getting-started"></a>
 
-To run Rubocop on your project, use the following command:
+To get started with the project, follow the instructions below.
 
-   ```bash
-   rubocop
-  ```
-Rubocop will analyze your Ruby code and provide feedback on style violations and potential improvements.
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+### Setup
 
-Before contributing, please make sure to familiarize yourself with the project's code of conduct.
+To set up the project locally, you need to have Ruby installed on your system.
 
-## License
+### Prerequisites
 
-This project is licensed under the [MIT License](LICENSE).
+- Ruby (version 2.5 or above)
 
-## Acknowledgements
+### Install
+
+1. Clone the repository:
+
+```sh
+  clone git@github.com:MussieTeka/RubySchoolLibrary.git
+```
+2. Change into the project directory:
+
+```
+cd RubySchoolLibrary
+```
+### Usage
+
+To use the project, follow these steps:
+
+1. Open the ruby files in a text editor.
+3. Run the script using the command:
+
+```
+ruby person.rb
+ruby student.rb
+ruby teacher.rb
+```
+4. The decoded message will be printed on the console.
+### Run tests
+
+There are no tests available for this project at this current stage.
+### Deployment
+
+There is no specific deployment process for this project as it is a code implementation. However, you can integrate the codes into your own Ruby applications.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="authors"></a>
+
+This project was developed by:
+
+👤 **Mussie Kahsay**
+
+- GitHub: [@MussieTeka](https://github.com/MussieTeka)
+- Twitter: [@mussieteka](https://twitter.com/mussieteka)
+- LinkedIn: [@mussieteka](https://linkedin.com/in/mussieteka)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Possible future features for this project include:
+
+- Implementing a reservation system to allow users to reserve books in advance.
+- Generating reports and statistics on the borrowing patterns and popularity of books.
+- Adding a notification system to remind users of upcoming book due dates or reservations.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+If you would like to contribute to this project, you can follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request back to the original repository.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please give it a star on GitHub.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - [Ruby](https://www.ruby-lang.org/en/)
-- [Bundler](https://bundler.io/)
-- [Rubocop](https://rubocop.org/)
+- [GitHub](https://github.com/)
+- [Microverse](https://www.microverse.org/)
 
-## Contact
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you have any questions or need further assistance, please feel free to contact the project maintainer:
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- Maintainer: [Mussie Kahsay](mailto:mussieteka@gmail.com)
+- **Can I modify and redistribute this project?**
+
+  - Yes, you can modify and redistribute this project as long as you follow the terms of the MIT license.
+
+- **How can I contribute to this project?**
+
+  - Contributions, issues, and feature requests are welcome! You can check the issues page to see if there are any current issues or feature requests that you can work on. If not, feel free to submit a new issue or pull request. Before contributing, please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
