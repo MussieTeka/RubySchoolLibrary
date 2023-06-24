@@ -6,7 +6,7 @@ class BaseDecorator < Nameable
     @nameable_obj = nameable
   end
 
-  def get_correct_name
-    @nameable_obj.get_correct_name
+  def correct_name
+    @nameable_obj.correct_name
   end
 end
