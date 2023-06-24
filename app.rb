@@ -13,9 +13,9 @@ class App
   end
 
   def list_books
-    puts "Books:"
+    puts 'Books:'
     if books.empty?
-      puts "No books available."
+      puts 'No books available.'
     else
       books.each do |book|
         puts "#{book.book_title} by #{book.book_author_name}"
@@ -24,9 +24,9 @@ class App
   end
 
   def list_people
-    puts "People:"
+    puts 'People:'
     if people.empty?
-      puts "No people available."
+      puts 'No people available.'
     else
       people.each do |person|
         puts "#{person.class}: #{person.name} (ID: #{person.id})"
@@ -41,7 +41,7 @@ class App
     puts "Enter the person's age:"
     age = gets.chomp.to_i
 
-    puts "Is it a (s)tudent or a (t)eacher?"
+    puts 'Is it a (s)tudent or a (t)eacher?'
     type = gets.chomp.downcase
 
     case type
@@ -50,7 +50,7 @@ class App
     when 't'
       create_teacher(name, age)
     else
-      puts "Invalid choice. Please try again."
+      puts 'Invalid choice. Please try again.'
     end
   end
 
@@ -72,10 +72,10 @@ class App
   end
 
   def create_book
-    puts "Enter the book title:"
+    puts 'Enter the book title:'
     title = gets.chomp
 
-    puts "Enter the book author name:"
+    puts 'Enter the book author name:'
     author = gets.chomp
 
     book = Book.new(title, author)
@@ -88,25 +88,25 @@ class App
 
     person = find_person(person_id)
     if person.nil?
-      puts "Person not found."
+      puts 'Person not found.'
       return
     end
 
-    puts "Enter the book title:"
+    puts 'Enter the book title:'
     title = gets.chomp
 
     book = find_book(title)
     if book.nil?
-      puts "Book not found."
+      puts 'Book not found.'
       return
     end
 
-    puts "Enter the rental date (YYYY-MM-DD):"
+    puts 'Enter the rental date (YYYY-MM-DD):'
     date = gets.chomp
 
     rental = Rental.new(date, book, person)
     rentals << rental
-    puts "Rental created successfully."
+    puts 'Rental created successfully.'
   end
 
   def list_rentals_for_person
@@ -115,7 +115,7 @@ class App
 
     person = find_person(person_id)
     if person.nil?
-      puts "Person not found."
+      puts 'Person not found.'
       return
     end
 
@@ -123,7 +123,7 @@ class App
 
     puts "Rentals for #{person.name} (ID: #{person.id}):"
     if rentals_for_person.empty?
-      puts "No rentals found."
+      puts 'No rentals found.'
     else
       rentals_for_person.each do |rental|
         puts "Book: #{rental.book.book_title} | Date: #{rental.date}"
