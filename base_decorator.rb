@@ -3,10 +3,10 @@ require_relative 'nameable'
 class BaseDecorator < Nameable
   def initialize(nameable)
     super()
-    @nameable = nameable
+    @nameable_obj = nameable
   end
 
-  def correct_name
-    @nameable.correct_name
+  def get_correct_name
+    @nameable_obj.get_correct_name
   end
 end
