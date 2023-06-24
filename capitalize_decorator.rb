@@ -1,7 +1,7 @@
 require_relative 'base_decorator'
 
-class CapitalizeDecorator < BaseDecorator
+class CapitalizeDecorator < Decorator
   def correct_name
-    @nameable_obj.correct_name.capitalize
+    @nameable.correct_name.capitalize
   end
 end
